@@ -1,0 +1,26 @@
+<!-- 1. Проверить XML, правильно ли он составлен, не имеет ли он ошибок, если 
+есть какие-либо недочеты, предоставьте правильный вариант в файле 1.xml:
+
+```
+<user>
+<name>"Иван"</name>
+<surname>"Иванов"</surname>
+<patronymic>"Иванович"</patronymic>
+<age>"30"</age>
+<phone>"Москва"</phone>
+<birthplace>"+7 926 766 48 48"</birthplace>
+</user
+``` -->
+
+<?xml version='1.0' encoding='utf-8'?>
+<user>
+	<name>Иван</name>
+	<surname>Иванов</surname>
+	<patronymic>Иванович</patronymic>
+	<age>30</age>
+	<phone>
+		<code>+7</code>
+		<phoneNumber>9267664848</phoneNumber>
+	</phone>
+	<birthplace>Москва</birthplace>
+</user>
