@@ -1,0 +1,119 @@
+
+@font-face {
+	font-family: 'Appetite';
+	src: url('fonts/appetite.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/appetite.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/appetite.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/appetite.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/appetite.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/appetite.svg#appetite') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Pobeda Regular';
+	src: url('fonts/pobeda_regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/pobeda_regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/pobeda_regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/pobeda_regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/pobeda_regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/pobeda_regular.svg#pobeda_regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    font-family: 'Sans-Serif', sans-serif;
+    background-color:azure;
+    color: rgb(34, 29, 29);
+}
+
+header,
+.box-footer {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    background-color: azure;
+    border: 1px solid burlywood;
+    border-radius: 2%;
+    padding-left: 30px;
+    padding-right: 30px
+}
+
+.header-name {
+    font-family: 'Appetite', sans-serif;
+    font-weight: 300;
+    color: darkred;
+}
+
+.txt-info {
+    color: darkblue;
+}
+
+.header-info {
+    font-family: 'Pobeda Regular', sans-serif;
+    font-size: 24px;
+    text-decoration-line: underline;
+    color: brown;
+}
+
+.flex-box {
+    margin: 20px 0 0 0;
+    display: flex;
+}
+
+.img-post {
+    margin-right: 20px;
+}
+
+.list-skill {
+    font-weight: 700;
+}
+
+.header-hobby {
+    font-weight: 700;
+    font-style: italic;
+    color:cadetblue;
+    font-family: 'Pobeda Regular', sans-serif;
+    font-size: 30px;
+}
+
+.hobby-item {
+    list-style-type: square;
+    font-family: 'Pobeda Regular', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.header-contact,
+.footer-list
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.box-dubai {
+    margin: 0 auto 0 auto;
+}
+
+.box-footer {
+    background-color:beige;
+    font-style: italic;
+}
+
+.header-contact {
+    color: cadetblue;
+}
+
+.footer-list {
+    list-style-type: none;
+    font-style: italic;
+}
+
+.footer-list-item a,
+.geek {
+    text-decoration: none;
+    color: grey;
+    font-style: italic;
+}
