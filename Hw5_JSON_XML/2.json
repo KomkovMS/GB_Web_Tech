@@ -1,0 +1,13 @@
+
+{
+    "name": "Иван",
+    "surname": "Иванов",
+    "patronymic": "Иванович",
+    "age": 30,
+    "birthplace": "Москва",
+    "phone": {
+      "code": "+7",
+      "phoneNumber": 9267664848
+    }
+}
+
